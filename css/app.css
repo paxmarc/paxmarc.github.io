@@ -1,0 +1,56 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.hero {
+	font-family: inherit;
+	background-size: cover;
+	height: 100vh;
+	padding: 12.5em 0;
+	background: #277455; /* For browsers that do not support gradients */
+  	background: -webkit-linear-gradient(left top, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* Safari 5.1-6.0 */
+  	background: -o-linear-gradient(bottom right, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* For Opera 11.6-12.0 */
+  	background: -moz-linear-gradient(bottom right, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* For Firefox 3.6-15 */
+  	background: linear-gradient(to bottom-right, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* Standard syntax */
+	z-index: 1;
+}
+.hero .hero-text {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	z-index: 20;
+	font-family: inherit;
+}
+
+h1 {
+	font-family: inherit;
+}
+h3 {
+	font-family: inherit;
+}
+
+.link-bar {
+	margin-top: 30px;
+}
+
+.link-bar div a {
+	color: #fff;
+	font-size: 20px;
+	/*border: 2px solid #fff;*/
+	padding: 0.7em;
+	border-radius: 5%;
+}
+
+.link-bar div a:visited {
+	color: #fff;
+}
+
+.link-bar div a:hover {
+	color: #277455;
+	background-color: #fff;
+}
+
+.links {
+	margin: 20px auto;
+}
