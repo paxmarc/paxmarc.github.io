@@ -7,7 +7,7 @@ body {
 	font-family: inherit;
 	background-size: cover;
 	height: 100vh;
-	padding: 12.5em 0;
+	padding: 7em 0 12em 0;
 	background: #277455; /* For browsers that do not support gradients */
   	background: -webkit-linear-gradient(left top, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* Safari 5.1-6.0 */
   	background: -o-linear-gradient(bottom right, rgba(39, 118, 85, 1), rgba(39, 116, 85, 0.65)); /* For Opera 11.6-12.0 */
